@@ -1,7 +1,7 @@
 {
-  "name": "cypress-intermediario-v2",
+  "name": "cypress-intermediate",
   "version": "1.0.0",
-  "description": "Repositório do projeto v2 do curso de testes automatizados com Cypress (intermdiário) da Escola TAT no Udemy",
+  "description": "Repository of basics tests in Cypress, in a Docker image, with API test learning.",
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
@@ -10,19 +10,13 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-intermediario-v2.git"
+    "url": "git+https://github.com/priscillacsantos/cypress-intermediate.git"
   },
   "keywords": [
-    "Cypress intermediário",
-    "Talking About Testing",
     "E2E Testing"
   ],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wlsf82/cypress-intermediario-v2/issues"
-  },
-  "homepage": "https://github.com/wlsf82/cypress-intermediario-v2#readme",
+  "homepage": "https://github.com/priscillacsantos/cypress-intermediate#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.0.2",
