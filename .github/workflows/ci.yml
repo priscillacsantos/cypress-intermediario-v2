@@ -9,6 +9,6 @@ jobs:
       - name: Pull Docker image
         run: docker pull wlsf82/gitlab-ce:latest
       - name: Run Docker container
-        run: docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-ce
+        run: docker run --publish 80:80 --hostname localhost wlsf82/gitlab-ce
       - name: Cypress run
         uses: cypress-io/github-action@v6
